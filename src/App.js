@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import MainCover from './components/MainCover';
+import Greeting from './components/Greeting';
+import Contact from './components/Contact';
+import Gallery from './components/Gallery';
+import Location from './components/Location';
+import MoneyGift from './components/MoneyGift';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-gray-100 flex justify-center">
+      <div className="w-full max-w-[800px] bg-white shadow-2xl min-h-screen flex flex-col font-sans">
+        <MainCover />
+        <Greeting />
+        <Contact />
+        <Gallery />
+        <Location />
+        <MoneyGift />
+
+        <footer className="py-10 bg-gray-800 text-white text-center text-xs">
+          <p>Thank you for being with us.</p>
+          <p className="mt-2 opacity-50">
+            Copyright © Chloe Kim :)
+          </p>
+        </footer>
+      </div>
     </div>
   );
 }
