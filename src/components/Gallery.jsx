@@ -3,7 +3,7 @@ import FadeIn from './common/FadeIn';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const Gallery = () => {
-  const images = Array.from({ length: 12 }).map((_, i) => `/image/g${i + 1}.jpg`);
+  const images = Array.from({ length: 12 }).map((_, i) => `${import.meta.env.BASE_URL}/image/g${i + 1}.jpg`);
 
   const [isOpen, setIsOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
