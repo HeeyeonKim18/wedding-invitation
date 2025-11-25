@@ -27,7 +27,7 @@ const Contact = () => (
       </h3>
       <div className="max-w-md mx-auto bg-gray-50 p-6 rounded-lg shadow-sm">
         <h4 className="text-center font-bold mb-4 text-gray-700">신랑측</h4>
-        <ContactRow role="신랑" name="차성범" phone="010-0000-0000" />
+        <ContactRow role="신랑" name="차승범" phone="010-0000-0000" />
         <ContactRow role="아버지" name="차아빠" phone="010-0000-0000" />
         <ContactRow role="어머니" name="이엄마" phone="010-0000-0000" />
 

@@ -63,7 +63,7 @@ const MoneyGift = () => {
                 <AccountItem
                   bank="국민은행"
                   account="123-456-789012"
-                  name="차성범"
+                  name="차승범"
                 />
                 <AccountItem
                   bank="국민은행"

@@ -41,7 +41,7 @@ const MainCover = () => {
       <div className="relative z-10 text-center text-white mb-20 font-serif">
         <FadeIn>
           <h2 className="text-2xl mb-2 tracking-widest">
-            차성범 <br /> & <br /> 조주영
+            차승범 <br /> & <br /> 조주영
           </h2>
           <p className="text-lg mt-6 mb-2">2026. 05. 23. SAT 12:00 PM</p>
           <p className="text-sm font-light">창원 리베라컨벤션 아르덴하우스 10층</p>
